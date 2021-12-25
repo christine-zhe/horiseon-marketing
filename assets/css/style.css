@@ -1,3 +1,5 @@
+/* Style Element Changes for Entire Site */ 
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Start for Style for Header elements */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,6 +44,8 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* End of Header Styles */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +55,7 @@ p {
     font-size: 16px;
 }
 
+/* First picture that could be seen with four people gatherint to talk about a project in a meeting */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +64,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* Beginning of the main content, which includes: Search Engine Optimization, Online Reputation Management, and Social Media Marketing Styles Start */ 
 
 .main-sections {
     margin-bottom: 20px;
@@ -92,7 +100,9 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+/* End of styles for the main content */
 
+/* Combined styles for all three articles discusing about the benefits: lead generation, brand awareness, and cost management */ 
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,6 +130,9 @@ p {
     max-width: 150px;
 }
 
+/* End of styles for the benefits */
+
+/* Styles for Footer at the bottom of the page */
 footer {
     padding: 30px;
     clear: both;
@@ -130,3 +143,5 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* End of Footer Styles */ 
+/* End of Styles */
